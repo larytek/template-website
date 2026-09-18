@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maduka University Library Digital Library">
+    <title>Digital Library | Maduka University Library</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="page-digital" data-page="digital">
+
+   
+
+ <header class="site-header">
+
+    <div class="container university-header">
+
+        <a href="index.html" class="university-brand">
+
+            <img
+                src="images/logo.png"
+                alt="Maduka University Library Logo"
+                class="university-logo"
+            >
+
+            <div class="university-title">
+                <h1>Maduka University Library</h1>
+                <p>Academic Library &amp; Research Support</p>
+            </div>
+
+        </a>
+
+    </div>
+
+    <nav class="main-nav" aria-label="Main Navigation">
+
+        <div class="container">
+
+            <ul class="nav-list">
+
+                <li>
+                    <a href="index.html" class="nav-link">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="digital.html" class="nav-link active">
+                        Digital Library
+                    </a>
+                </li>
+
+                <li>
+                    <a href="catalogue.html" class="nav-link">
+                        Library Catalogue
+                    </a>
+                </li>
+
+                <li class="nav-dropdown">
+
+                    <a href="#" class="nav-link">
+                        About the Library ▾
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href="staff.html">
+                                Library Management
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="index.html#services">
+                                Library Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="rules.html">
+                                Policies &amp; Regulations
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="contact.html" class="nav-link">
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+    <!-- PAGE BANNER -->
+    <section class="page-banner">
+        <div class="container">
+
+            <span class="badge">DIGITAL LIBRARY</span>
+
+            <h2>Digital Library Resources</h2>
+
+            <p>
+                Access electronic books, journals, databases, institutional
+                research outputs and other scholarly resources provided through
+                the University Library.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- INTRODUCTION -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Explore the Digital Library</h2>
+
+                <p>
+                    The Maduka University Digital Library provides access to
+                    electronic information resources that support teaching,
+                    learning and research.
+                </p>
+            </div>
+
+
+            <!-- MAIN PORTAL -->
+            <div class="portal-redirect">
+
+                <div>
+                    <span class="badge">DIGITAL LIBRARY PORTAL</span>
+
+                    <h3>Access University Electronic Resources</h3>
+
+                    <p>
+                        Use the University Digital Library portal to access
+                        available subscribed databases and other electronic
+                        resources.
+                    </p>
+                </div>
+
+                <a
+                    href="https://mue.cblibrary.ng"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn btn-primary"
+                >
+                    Open Digital Library
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ACCESS CONTROL DEMONSTRATION -->
+    <section class="section section-alt">
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="badge">ACCESS CONTROL</span>
+
+                <h2>Digital Resource Access</h2>
+
+                <p>
+                    Select your user category to see the type of access
+                    available through the library.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <form id="digital-access-form">
+
+                    <div class="form-group">
+
+                        <label for="digital-user-type">
+                            User Category
+                        </label>
+
+                        <select id="digital-user-type" name="user-type" required>
+
+                            <option value="">
+                                -- Select User Category --
+                            </option>
+
+                            <option value="student">
+                                Student
+                            </option>
+
+                            <option value="staff">
+                                Academic / Non-Academic Staff
+                            </option>
+
+                            <option value="researcher">
+                                Researcher
+                            </option>
+
+                            <option value="guest">
+                                Guest / Visitor
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+                        Check Access
+                    </button>
+
+                </form>
+
+
+                <div
+                    id="digital-access-result"
+                    class="form-feedback-message"
+                    aria-live="polite"
+                ></div>
+
+                <p class="form-note">
+                    <strong>Note:</strong>
+                    This access-control feature is a front-end demonstration
+                    for this student project. Actual authentication and
+                    authorization should be implemented on a secure server.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- DIGITAL RESOURCES -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="badge">E-RESOURCES</span>
+
+                <h2>Digital Resources</h2>
+
+                <p>
+                    The Library provides access to different categories of
+                    electronic information resources.
+                </p>
+
+            </div>
+
+
+            <div class="grid-container grid-3">
+
+                <!-- E-BOOKS -->
+                <article class="card">
+
+                    <div class="card-icon">📚</div>
+
+                    <h3>E-Books</h3>
+
+                    <p>
+                        Access electronic books that support academic study,
+                        teaching and research.
+                    </p>
+
+                    <a href="https://mue.cblibrary.ng"
+                       target="_blank"
+                       rel="noopener"
+                       class="btn btn-secondary">
+                        Access E-Books
+                    </a>
+
+                </article>
+
+
+                <!-- E-JOURNALS -->
+                <article class="card">
+
+                    <div class="card-icon">📖</div>
+
+                    <h3>E-Journals</h3>
+
+                    <p>
+                        Explore scholarly journals and research publications
+                        available through the University's digital resources.
+                    </p>
+
+                    <a href="https://mue.cblibrary.ng"
+                       target="_blank"
+                       rel="noopener"
+                       class="btn btn-secondary">
+                        Access E-Journals
+                    </a>
+
+                </article>
+
+
+                <!-- DATABASES -->
+                <article class="card">
+
+                    <div class="card-icon">🔎</div>
+
+                    <h3>Online Databases</h3>
+
+                    <p>
+                        Search available subscribed databases for scholarly
+                        articles, research literature and academic information.
+                    </p>
+
+                    <a href="https://mue.cblibrary.ng"
+                       target="_blank"
+                       rel="noopener"
+                       class="btn btn-secondary">
+                        Browse Databases
+                    </a>
+
+                </article>
+
+
+                <!-- INSTITUTIONAL REPOSITORY -->
+                <article class="card">
+
+                    <div class="card-icon">🏛️</div>
+
+                    <h3>Institutional Repository</h3>
+
+                    <p>
+                        Discover and access the University's scholarly
+                        publications, research outputs and institutional
+                        knowledge.
+                    </p>
+
+                    <a href="https://dspace.madukauniversity.edu.ng"
+                       target="_blank"
+                       rel="noopener"
+                       class="btn btn-secondary">
+                        Visit Repository
+                    </a>
+
+                </article>
+
+
+                <!-- OER -->
+                <article class="card">
+
+                    <div class="card-icon">🌐</div>
+
+                    <h3>Open Educational Resources</h3>
+
+                    <p>
+                        Find freely available educational materials that can
+                        support teaching, learning and independent study.
+                    </p>
+
+                    <a href="#oer"
+                       class="btn btn-secondary">
+                        Learn More
+                    </a>
+
+                </article>
+
+
+                <!-- RESEARCH SUPPORT -->
+                <article class="card">
+
+                    <div class="card-icon">🧑‍🔬</div>
+
+                    <h3>Research Support</h3>
+
+                    <p>
+                        Get assistance with information discovery, scholarly
+                        searching, referencing and responsible use of
+                        information resources.
+                    </p>
+
+                    <a href="contact.html"
+                       class="btn btn-secondary">
+                        Contact a Librarian
+                    </a>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- HOW TO ACCESS -->
+    <section class="section section-alt">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="badge">USER GUIDE</span>
+
+                <h2>How to Access Digital Resources</h2>
+
+            </div>
+
+
+            <div class="grid-container grid-3">
+
+                <article class="card">
+
+                    <h3>01. Identify Your Resource</h3>
+
+                    <p>
+                        Decide whether you need an e-book, e-journal, database,
+                        repository item or another digital resource.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <h3>02. Open the Digital Library</h3>
+
+                    <p>
+                        Visit the University Digital Library portal and select
+                        the resource you need.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <h3>03. Authenticate When Required</h3>
+
+                    <p>
+                        Some electronic resources may require University
+                        authentication before access is granted.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- OER INFORMATION -->
+    <section class="section" id="oer">
+
+        <div class="container">
+
+            <div class="card">
+
+                <span class="badge">OPEN EDUCATIONAL RESOURCES</span>
+
+                <h2>Learn with Open Resources</h2>
+
+                <p>
+                    Open Educational Resources (OER) are educational materials
+                    that can be freely accessed and, depending on their
+                    licence, reused or adapted for learning and teaching.
+                </p>
+
+                <p>
+                    Students should always check the licence and usage
+                    conditions of materials before copying, modifying or
+                    redistributing them.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESPONSIBLE USE -->
+    <section class="section section-alt">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="badge">RESPONSIBLE USE</span>
+
+                <h2>Responsible Use of Digital Resources</h2>
+
+            </div>
+
+
+            <div class="grid-container grid-2">
+
+                <div class="card">
+
+                    <h3>Students and Researchers Should</h3>
+
+                    <ul>
+                        <li>Use library resources for legitimate academic purposes.</li>
+                        <li>Respect copyright and licence conditions.</li>
+                        <li>Use accurate citations when using scholarly information.</li>
+                        <li>Protect personal and institutional login credentials.</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>Users Should Not</h3>
+
+                    <ul>
+                        <li>Share institutional login credentials with unauthorized users.</li>
+                        <li>Attempt to bypass access restrictions.</li>
+                        <li>Download excessive quantities of licensed content.</li>
+                        <li>Use library resources for unlawful activities.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <h3>Maduka University Library</h3>
+
+                <p>
+                    Supporting teaching, learning, research and lifelong
+                    information use.
+                </p>
+            </div>
+
+
+            <div>
+                <h4>Quick Links</h4>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="digital.html">Digital Library</a>
+                    </li>
+
+                    <li>
+                        <a href="catalogue.html">Library Catalogue</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    &copy; 2026 Maduka University Library.
+                    All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
